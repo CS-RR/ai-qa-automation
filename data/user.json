@@ -1,0 +1,9 @@
+{
+  "validUser": {
+    "firstName": "Clart",
+    "lastName": "Kent",
+    "email": "spb@example.com",
+    "password": "@ivanova456L",
+    "birthdate": "01/01/1990"
+  }
+}

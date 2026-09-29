@@ -1,0 +1,10 @@
+{
+  "validCheckout": {
+    "firstName": "Clart",
+    "lastName": "Kent",
+    "email": "spb@example.com",
+    "address": "123 Main St",
+    "postalCode": "40001",
+    "city": "Brisbane"
+  }
+}

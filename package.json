@@ -1,0 +1,23 @@
+{
+  "name": "ai-qa-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:checkout": "playwright test tests/checkout.spec.ts",
+    "test:register": "playwright test tests/register.spec.ts",
+    "clean": "rm -rf test-results/* playwright-report/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.20.4"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.4"
+  }
+}
