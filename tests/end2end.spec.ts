@@ -6,8 +6,10 @@ import userData from '../data/user.json';
 e2eTest('User can register, add products, and complete checkout', async ({ registerPage, productPage, checkoutPage }) => {
   test.setTimeout(60_000);
 
-await registerPage.open();
+//await registerPage.open();
 await registerPage.registerUser(userData.validUser);
+await registerPage.goToAccountPage();
+await registerPage.expectRegistrationSuccessful();
 
 await productPage.open();
 

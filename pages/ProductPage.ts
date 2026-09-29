@@ -45,7 +45,7 @@ async safeClick(locator: Locator) {
 
   async open() {
 
-    await this.page.goto('https://demo.prestashop.com/#/en/front');
+    await this.page.goto('/');
     await this.page.waitForTimeout(5000);
     await this.featuredProductsLink.click();
     
