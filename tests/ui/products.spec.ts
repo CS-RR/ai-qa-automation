@@ -1,5 +1,5 @@
 import { expect } from '@playwright/test';
-import { productTest } from '../fixtures/product.fixture';
+import { productTest } from '../../fixtures/product.fixture';
 
 productTest('User can add products to the cart', async ({ productPage }) => {
   

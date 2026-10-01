@@ -1,6 +1,6 @@
 import { expect } from '@playwright/test';
-import { registerTest } from '../fixtures/register.fixture';
-import userData from '../data/user.json';
+import { registerTest } from '../../fixtures/register.fixture';
+import userData from '../../data/user.json';
 
 registerTest('User can register a new account', async ({ registerPage }) => {
 

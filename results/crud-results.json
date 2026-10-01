@@ -1,0 +1,48 @@
+{
+  "Create": {
+    "status": 200,
+    "passed": true,
+    "timestamp": "2026-10-01T02:51:43.544Z",
+    "response": {
+      "id": 27356,
+      "name": "Doggie",
+      "photoUrls": [],
+      "tags": [],
+      "status": "available"
+    }
+  },
+  "Read": {
+    "status": 200,
+    "passed": true,
+    "timestamp": "2026-10-01T02:51:44.049Z",
+    "response": {
+      "id": 27356,
+      "name": "Doggie",
+      "photoUrls": [],
+      "tags": [],
+      "status": "available"
+    }
+  },
+  "Update": {
+    "status": 200,
+    "passed": true,
+    "timestamp": "2026-10-01T02:51:44.503Z",
+    "response": {
+      "id": 27356,
+      "name": "DoggieUpdated",
+      "photoUrls": [],
+      "tags": [],
+      "status": "sold"
+    }
+  },
+  "Delete": {
+    "status": 200,
+    "passed": true,
+    "timestamp": "2026-10-01T02:51:44.918Z",
+    "response": {
+      "code": 200,
+      "type": "unknown",
+      "message": "27356"
+    }
+  }
+}

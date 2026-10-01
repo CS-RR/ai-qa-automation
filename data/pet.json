@@ -1,0 +1,10 @@
+{
+  "validPet": {
+    "name": "Doggie",
+    "status": "available"
+  },
+    "updatedPet": {
+    "name": "DoggieUpdated",
+    "status": "sold"
+  }
+}

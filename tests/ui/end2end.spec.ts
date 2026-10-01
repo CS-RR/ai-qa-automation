@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test';
-import { e2eTest } from '../fixtures/e2e.fixture';
-import  CheckoutData from '../data/checkout.json';
-import userData from '../data/user.json';
+import { e2eTest } from '../../fixtures/e2e.fixture';
+import  CheckoutData from '../../data/checkout.json';
+import userData from '../../data/user.json';
 
 e2eTest('User can register, add products, and complete checkout', async ({ registerPage, productPage, checkoutPage }) => {
   test.setTimeout(60_000);

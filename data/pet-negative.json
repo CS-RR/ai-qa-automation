@@ -1,0 +1,17 @@
+{
+  "invalidIdPet": {
+    "id": "abc",
+    "name": "InvalidPet",
+    "status": "available"
+  },
+  "missingNamePet": {
+    "id": 12345,
+    "status": "available"
+  },
+  "emptyBody": {},
+  "invalidStatusPet": {
+    "id": 67890,
+    "name": "Doggie",
+    "status": "invalidStatus"
+  }
+}
